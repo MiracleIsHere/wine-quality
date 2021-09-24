@@ -1,0 +1,80 @@
+<form id="regForm" action="" method="POST">
+
+  <h1>Predict the quality of your wine</h1>
+
+  <div class="tab">
+    </br><label for="fixed_acidity">Fixed acidity</label>
+    <p><input type="number" id="fixed_acidity" name="fixed acidity" placeholder="0.0" oninput="this.className = ''"
+        title="Most acids involved with wine or fixed or nonvolatile (do not evaporate readily)"></p>
+
+    </br><label for="volatile_acidity">Volatile acidity</label>
+    <p><input type="number" id="volatile_acidity" name="volatile acidity" placeholder="0.0"
+        oninput="this.className = ''"
+        title="The amount of acetic acid in wine, which at too high of levels can lead to an unpleasant, vinegar taste">
+    </p>
+
+    </br><label for="citric_acid">Citric acid</label>
+    <p><input type="number" id="citric_acid" name="citric acid" placeholder="0.0" oninput="this.className = ''"
+        title="Found in small quantities, citric acid can add ‘freshness’ and flavor to wines"></p>
+  </div>
+
+  <div class="tab">
+    </br><label for="residual_sugar">Residual sugar</label>
+    <p><input type="number" id="residual_sugar" name="residual sugar" placeholder="0.0" oninput="this.className = ''"
+        title="The amount of sugar remaining after fermentation stops, it’s rare to find wines with less than 1 gram/liter and wines with greater than 45 grams/liter are considered sweet">
+    </p>
+
+    </br><label for="chlorides">Chlorides</label>
+    <p><input type="number" id="chlorides" name="chlorides" placeholder="0.0" oninput="this.className = ''"
+        title="The amount of salt in the wine"></p>
+  </div>
+
+  <div class="tab">
+    </br><label for="free_sulfur_dioxide">Free sulfur dioxide</label>
+    <p><input type="number" id="free_sulfur_dioxide" name="free sulfur dioxide" placeholder="0.0"
+        oninput="this.className = ''"
+        title="The free form of SO2 exists in equilibrium between molecular SO2 (as a dissolved gas) and bisulfite ion; it prevents microbial growth and the oxidation of wine">
+    </p>
+
+    </br><label for="total_sulfur_dioxide">Total sulfur dioxide</label>
+    <p><input type="number" id="total_sulfur_dioxide" name="total sulfur dioxide" placeholder="0.0"
+        oninput="this.className = ''"
+        title="Amount of free and bound forms of S02; in low concentrations, SO2 is mostly undetectable in wine, but at free SO2 concentrations over 50 ppm, SO2 becomes evident in the nose and taste of wine">
+    </p>
+
+    </br><label for="density">Density</label>
+    <p><input type="number" id="density" name="density" placeholder="0.0" oninput="this.className = ''"
+        title="The density of water is close to that of water depending on the percent alcohol and sugar content"></p>
+  </div>
+
+  <div class="tab">
+    </br><label for="pH">pH</label>
+    <p><input type="number" id="pH" name="pH" placeholder="0.0" oninput="this.className = ''"
+        title="Describes how acidic or basic a wine is on a scale from 0 (very acidic) to 14 (very basic); most wines are between 3-4 on the pH scale">
+    </p>
+
+    </br><label for="sulphates">Sulphates</label>
+    <p><input type="number" id="sulphates" name="sulphates" placeholder="0.0" oninput="this.className = ''"
+        title="A wine additive which can contribute to sulfur dioxide gas (S02) levels, wich acts as an antimicrobial and antioxidant">
+    </p>
+
+    </br><label for="alcohol">Alcohol</label>
+    <p><input type="number" id="alcohol" name="alcohol" placeholder="0.0" oninput="this.className = ''"
+        title="The percent alcohol content of the wine"></p>
+  </div>
+
+  <div style="overflow:auto;">
+    <div style="float:right;">
+      <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+      <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+    </div>
+  </div>
+
+  <div style="text-align:center;margin-top:40px;">
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+  </div>
+
+</form>

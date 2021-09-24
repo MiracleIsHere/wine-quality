@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+  background-color: #f1f1f1;
+}
+
+h1 {
+  text-align: center;  
+}
+
+#prevBtn {
+  background-color: #bbbbbb;
+}
+
+button {
+  background-color: #04AA6D;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.main-container {
+  float: left;
+  position: relative;
+  left: 50%;
+}
+
+.fixer-container {
+  float: left;
+  position: relative;
+  left: -50%;
+}
