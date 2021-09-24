@@ -24,9 +24,8 @@ Author: https://rstudio-pubs-static.s3.amazonaws.com/57835_c4ace81da9dc45438ad0c
 * fancy user interface
 * tooltips that describe attributes
 ## Demo
-Shorten URL
+Form
 :--------------------------------------------------:
 ![](https://imgur.com/dGIFxOb.png)
-Form
-![](https://imgur.com/goC0v4A.png)
 Prediction
+![](https://imgur.com/goC0v4A.png)
