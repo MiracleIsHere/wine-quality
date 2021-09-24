@@ -7,7 +7,7 @@ import os
 
 app = Flask(__name__)
 
-model = load_model(os.getcwd()+'\models\deployment_finalize')
+model = load_model(os.getcwd()+'/models/deployment_finalize')
 
 results = {0: 'trash', 1: 'good', 2: 'awesome'}
 
