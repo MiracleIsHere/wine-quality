@@ -3,10 +3,11 @@ from flask import Flask, request, url_for, redirect, render_template, jsonify
 from pycaret.classification import *
 import pandas as pd
 import numpy as np
+import os
 
 app = Flask(__name__)
 
-model = load_model('models\deployment_finalize')
+model = load_model(os.getcwd()+'\models\deployment_finalize')
 
 results = {0: 'trash', 1: 'good', 2: 'awesome'}
 
