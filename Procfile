@@ -1,3 +1,2 @@
-web: gunicorn app.py
-heroku ps:scale worker=1
-heroku run python console
+web: gunicorn flask_app:app
+heroku ps:scale web=1
