@@ -22,6 +22,7 @@ Author: https://rstudio-pubs-static.s3.amazonaws.com/57835_c4ace81da9dc45438ad0c
 ## Features
 * prediction accuracy is about 74%
 * fancy user interface
+* form validation
 * tooltips that describe attributes
 ## Demo
 Form
